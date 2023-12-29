@@ -1,0 +1,140 @@
+ /*<main class="main">*/
+            
+
+            
+            <div class="menu-lateral">
+                menu lateral
+            </div>
+
+            <div class="contenido">
+
+                <div class="categorias">
+                    categorias
+                </div>
+
+                <div class="videos">
+                    muro de video
+                </div>
+
+            </div>
+
+
+        </main>
+
+
+
+        main{
+
+            position: relative;
+            width: 100%;
+            top: 56px;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 56px auto;
+            
+            
+        }
+        
+        .menu-lateral{
+        
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: blueviolet;
+        }
+        
+        .contenido{
+        
+           display:flex;
+           flex-direction: column;
+        }
+        
+        .categorias{
+        
+            
+            width: auto;
+            height: 56px;
+            background-color: cadetblue;
+        
+        }
+        
+        .videos{
+        
+          
+            width: auto;
+            height: 100vh;
+        }
+
+
+        <div class="shorts">
+
+            <div class="cont-shorts">
+
+                <img class="shorts-img" alt="" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fit yt-core-image--loaded" src="https://i.ytimg.com/vi/crCyPXmyk2Y/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&amp;rs=AOn4CLDeTiR75fFCVfiALCYFJBwqfaD5FA">
+            
+                    
+                <div class="text-shorts">
+                    <h3> FIFA, pero Cada Gol Haaland Crece</h3>
+                    <p style="color: #ffffff83;">1.2 M de vistas</p>
+                </div>
+            </div>    
+
+            <div class="cont-shorts">
+
+                <img class="shorts-img" alt="" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fit yt-core-image--loaded" src="https://i.ytimg.com/vi/crCyPXmyk2Y/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&amp;rs=AOn4CLDeTiR75fFCVfiALCYFJBwqfaD5FA">
+            
+                    
+                <div class="text-shorts">
+                    <h3> FIFA, pero Cada Gol Haaland Crece</h3>
+                    <p style="color: #ffffff83;">1.2 M de vistas</p>
+                </div>
+            </div>    
+
+            <div class="cont-shorts">
+
+                <img class="shorts-img" alt="" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fit yt-core-image--loaded" src="https://i.ytimg.com/vi/crCyPXmyk2Y/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&amp;rs=AOn4CLDeTiR75fFCVfiALCYFJBwqfaD5FA">
+            
+                    
+                <div class="text-shorts">
+                    <h3> FIFA, pero Cada Gol Haaland Crece</h3>
+                    <p style="color: #ffffff83;">1.2 M de vistas</p>
+                </div>
+            </div>    
+
+            <div class="cont-shorts">
+
+                <img class="shorts-img" alt="" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fit yt-core-image--loaded" src="https://i.ytimg.com/vi/crCyPXmyk2Y/hq720.jpg?sqp=-oaymwEkCJUDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&amp;rs=AOn4CLDeTiR75fFCVfiALCYFJBwqfaD5FA">
+            
+                    
+                <div class="text-shorts">
+                    <h3> FIFA, pero Cada Gol Haaland Crece</h3>
+                    <p style="color: #ffffff83;">1.2 M de vistas</p>
+                </div>
+            </div>    
+                
+        </div>
+
+
+        .shorts{
+            display: flex;
+            
+        }
+        .cont-shorts{
+        
+            display: grid;
+            width: 229;
+            color: #eee7e7;
+        
+        
+        }
+        .shorts img{
+        
+          width: 228.98px;
+          height: 406.08;
+          border-radius: 10px;
+        }
+        
+        .text-shorts{
+            margin: 15px 0px;
+            width: 229px;
+        }
