@@ -25,11 +25,24 @@ body{
 
 }
 
+@media only screen and (max-width: 600px) 
+{
+    .navegacion{
+        grid-template-columns: 166.05px auto 230px ;
+    }
+}
+
+
+
+
+
 .logo{
     grid-area: logo;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
+
  .logo .logoo{
     color: #eee7e7;
 }
@@ -73,6 +86,13 @@ body{
 
 }
 
+/* Extra small devices (phones, 600px and down) */ @media only screen and (max-width: 600px) 
+{
+    .busqueda{
+        display: none;
+    }
+} 
+
 .busqueda button{
     height: 42px;
     border: 1px solid;
@@ -99,10 +119,18 @@ body{
     grid-area: iconos;
     display: flex;
     justify-content: center;
-    
+    cursor: pointer;
     gap: 25px;
     margin: 0px 15px ;
 
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .iconos{
+        gap: 10px;
+        margin: 0px 15px 0px 0px;
+    }
 }
 
 .iconos .b-iconos{
@@ -113,6 +141,29 @@ body{
   border-radius: 80%;
   color: #eee7e7;
 }
+
+.b-iconosres{
+    display: none;
+    background-color: #0F0F0F;
+    border: none;
+  height: 50;
+  border-radius: 80%;
+  color: #eee7e7;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) 
+{ .b-iconosres{
+    display: flex;
+    background-color: #0F0F0F;
+    border: none;
+    height: 50;
+    border-radius: 80%;
+    color: #eee7e7;}
+}
+
+
+
 
 .iconos .perfil{
 
@@ -140,6 +191,15 @@ body{
    
 }
 
+
+/* Extra small devices (phones, 600px and down) */ @media only screen and (max-width: 600px) 
+{
+ .menu-lateral{
+    display: none;
+ }
+} 
+
+
 .boton-menu{
    
     
@@ -151,6 +211,7 @@ body{
     text-align: center;
    margin: 16px ;
    text-decoration: #eee7e7;
+   cursor: pointer;
      
 }
 .boton-menu svg{
@@ -179,9 +240,17 @@ body{
     gap: 4px;
     align-items: center;
     padding: 6px 20px;
+    width: 100%;
     
     
 }
+
+/* Extra small devices (phones, 600px and down) */ @media only screen and (max-width: 600px) {
+
+    .categorias {
+      left:0px;
+    }
+} 
 
 .botones{
     color: #eee7e7;
@@ -221,23 +290,49 @@ body{
     background-color: #0F0F0F;
 }
 
+@media only screen and (max-width: 600px) {
+ .muro-videos{
+    left: 0px;
+    
+ }
+}
+
+
 .videos{
 
     display: flex;
     gap: 25px;
     margin: 20px 10px 13px 30px;
+    cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+    .videos{
+        display: grid;
+    }
+}
+
+
+    
 .video{
 width: 352px;
 height: 197px;
 border-radius: 10px;
+cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .video{
+        width: 520px;
+        height: 293px;
+    }
 }
 
 .cont-video{
 
     display: grid;
     width: 352px;
+    cursor: pointer;
 }
 
 .info-video{
